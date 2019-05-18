@@ -1,0 +1,58 @@
+img{
+    height: 150px;
+    width: 150px;
+}
+
+body {
+    background-color: #cccccc;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+li {
+    font-family: monospace;
+}
+
+h1 {
+    font-family: 'Gugi', cursive;
+    color: red;
+    background-color: yellow;
+    border: 3px dashed green;
+    margin: 25px;
+    padding: 25px;
+}
+
+#controls {
+    background-color: yellow;
+    border: 3px dashed green;
+    margin: 25px;
+    padding: 25px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input {
+    background-color: tomato;
+    border: 1px solid red;
+    width: 200px;
+    ;
+}
+
+#inference-button {
+    background-color: yellow;
+    border: 3px dashed green;
+    margin: 10px;
+    padding: 10px;
+}
+
+#inference {
+
+    margin: 10px;
+    padding: 10px;
+}
