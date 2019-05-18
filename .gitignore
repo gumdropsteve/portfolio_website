@@ -102,3 +102,40 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+############################
+# npm
+############################
+node_modules
+npm-debug.log
+.node_history
+yarn.lock
+package-lock.json
+
+############################
+# tmp, editor & OS files
+############################
+.tmp
+*.swo
+*.swp
+*.swn
+*.swm
+.DS_Store
+*#
+*~
+.idea
+*sublime*
+nbproject
+src/auto-domains.json
+
+############################
+# Tests
+############################
+testApp
+coverage
+.nyc_output
+
+############################
+# Other
+############################
+.envrc
