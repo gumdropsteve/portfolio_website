@@ -6,6 +6,18 @@ __pycache__/
 # C extensions
 *.so
 
+*.log
+*.tgz
+.DS_Store
+.changelog
+.next/
+.sass-cache
+.storybuild/
+_site
+dist/
+node_modules/
+searchIndex.js
+
 # Distribution / packaging
 .Python
 build/
