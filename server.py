@@ -5,24 +5,24 @@ from flask import Flask, render_template, request, jsonify, Response
 # app object to route calls
 app = Flask( __name__ )
 # home route
-@app.route( '/' , methods=['GET'] )
+@app.route('/', methods=['GET'])
 def home():
     return render_template('home.html')  # '<p> Hello. </p>'
 
-# about route
-@app.route( '/about' , methods=['GET'] )
-def about():
-    return render_template('about.html')
+# real_estate route
+@app.route('/real_estate', methods=['GET'])
+def real_estate():
+    return render_template('real_estate.html')
 
-# articles route
-@app.route( '/articles' , methods=['GET'] )
-def articles():
-    return render_template('articles.html')
+# data science route
+@app.route('/ds' , methods=['GET'])
+def ds():
+    return render_template('ds.html')
 
-# projects route
-@app.route( '/projects' , methods=['GET'] )
-def projects():
-    return render_template('projects.html')
+# media & production route
+@app.route('/media', methods=['GET'])
+def media():
+    return render_template('media.html')
 
 '''unsure below'''
 # mpg route
@@ -47,4 +47,4 @@ def plot():
     return jsonify(data)
 
 if __name__ == '__main__':
-    app.run( host='0.0.0.0' , port=3333 , debug=True )
+    app.run(host='0.0.0.0', port=3333, debug=True)
