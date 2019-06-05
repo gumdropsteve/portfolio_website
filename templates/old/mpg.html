@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title> mpg </title>
+    <link rel='stylesheet' href='static/mpg.css'>
+</head>
+<body>
+    <img src='https://media.giphy.com/media/fCTqwThlbodeP5s607/giphy.gif'/>
+    <img src='https://media.giphy.com/media/HUkOv6BNWc1HO/giphy.gif'/>
+    <img src='https://media.giphy.com/media/3jcgPn9fzfaXc1EHJC/giphy.gif'/>
+    <img src='https://media.giphy.com/media/5qoRdabXeT4GY/giphy.gif'/>
+    <img src='https://media.giphy.com/media/fCTqwThlbodeP5s607/giphy.gif'/>
+    
+    <ul>
+        <li>
+            <a href='http://google.com'> Google</a>
+        </li>
+        <li>
+            <a href='/'>Home</a>
+        </li>
+    </ul>
+    <h1>Welcome to Machine Learning V1.0</h1>
+    <div id='controls'></div>
+    <div>
+        <label>Cyllinders</label>
+        <input id='cylinders' type='number' value='6'/>
+    </div>
+    <div>
+        <label>HorsePower</label>
+        <input id='horsepower' type='number' value='150'/>
+    </div>
+    <div>
+            <label>Weight</label>
+            <input id='weight' type='number' value='1500'/>
+    </div>
+
+    <div id='inference-button'>
+        <div>
+            <button id='inference'>Predict</button>
+        </div>
+        <div>
+            <input id='mpg' type='text' readonly/>
+        </div>
+    </div>
+    
+<button id=“scatter-button”>Scatter Plot </button>
+<div id=‘graph1’><div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.35.2/plotly.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src='static/mpg.js'></script>
+</body>
+</html>
