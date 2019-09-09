@@ -1,4 +1,3 @@
-import pandas as pd
 from flask import Flask, render_template
 
 # app object to route calls
@@ -6,7 +5,7 @@ app = Flask( __name__ )
 # home route
 @app.route('/', methods=['GET'])
 def home():
-    return render_template('home.html')  # '<p> Hello. </p>'
+    return render_template('index.html')  # '<p> Hello. </p>'
 
 # real_estate route
 @app.route('/real_estate', methods=['GET'])
@@ -16,7 +15,7 @@ def real_estate():
 # data science route
 @app.route('/ds' , methods=['GET'])
 def ds():
-    return render_template('ds.html')
+    return render_template('home.html')
 
 # media & production route
 @app.route('/media', methods=['GET'])
